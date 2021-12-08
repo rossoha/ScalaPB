@@ -3,7 +3,7 @@ import com.typesafe.tools.mima.core._
 import BuildHelper._
 import Dependencies._
 
-val protobufCompilerVersion = "3.15.8"
+val protobufCompilerVersion = "3.19.1"
 
 val MimaPreviousVersion = "0.11.0"
 
@@ -426,7 +426,7 @@ lazy val docs = project
       "scala3"           -> Dependencies.Scala3,
       "sbt_protoc"       -> "1.0.3",
       "sbt_dotty"        -> "0.5.3",
-      "protoc"           -> "3.15.6",
+      "protoc"           -> "3.19.1",
       "sparksql_scalapb" -> "0.11.0",
       "scalapb_validate" -> "0.3.1"
     ),
